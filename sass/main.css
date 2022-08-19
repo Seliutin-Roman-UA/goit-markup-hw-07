@@ -1,0 +1,67 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+  letter-spacing: 0.02em;
+}
+
+.conteiner--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*  LOGO  */
+.logo {
+  font-family: "Raleway";
+  @in;
+}
+
+.logo--blue {
+  color: blue;
+}
+
+.logo--black {
+  color: black;
+}
+
+body {
+  font-family: Roboto;
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=main.css.map */
