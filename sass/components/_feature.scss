@@ -1,0 +1,48 @@
+/* СЕКЦИЯ ОТЛИЧИТЕЛЬНЫЕ ЧЕРТЫ  */
+.spetial-feature {
+  padding-top: 94px;
+}
+
+.spetial-feature__header {
+  font-size: 0;
+}
+
+.spetial-feature__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.spetial-feature__wrapper {
+  position: relative;
+  height: 120px;
+  min-width: 270px;
+  background-color: $iight-grey;
+  border-radius: 4px;
+}
+
+.spetial-feature__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &:last-child {
+    --color1: $blue;
+    --color2: $dark-grey;
+  }
+}
+
+.spetial-feature__caption {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $dark-grey;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.spetial-feature__text {
+  color: $grey;
+  line-height: 1.7;
+}

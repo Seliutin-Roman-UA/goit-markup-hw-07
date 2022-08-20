@@ -1,7 +1,7 @@
 // Все кнопки серые
 function makeGreyStyle() {
   for (let elem of document.querySelectorAll(".filter li button")) {
-    elem.className = "button grey";
+    elem.className = "filter__button filter__button--grey";
   }
 }
 //перебираем коkекцию карточек портфллио,
@@ -26,7 +26,8 @@ function applyFiler(keyOfFilter) {
 
 document.getElementById("ALL").addEventListener("click", (event) => {
   makeGreyStyle();
-  document.getElementById("ALL").className = "button blue";
+  document.getElementById("ALL").className =
+    "filter__button filter__button--blue";
   const elements = document.querySelectorAll(".projects li");
   for (let i of elements) {
     i.style.display = "block";
@@ -36,22 +37,26 @@ document.getElementById("ALL").addEventListener("click", (event) => {
 document.getElementById("Веб-сайт").addEventListener("click", (event) => {
   makeGreyStyle();
   applyFiler("Веб-сайт");
-  document.getElementById("Веб-сайт").className = "button blue";
+  document.getElementById("Веб-сайт").className =
+    "filter__button filter__button--blue";
 });
 
 document.getElementById("Приложение").addEventListener("click", () => {
   makeGreyStyle();
   applyFiler("Приложение");
-  document.getElementById("Приложение").className = "button blue";
+  document.getElementById("Приложение").className =
+    "filter__button filter__button--blue";
 });
 
 document.getElementById("Дизайн").addEventListener("click", () => {
   makeGreyStyle();
   applyFiler("Дизайн");
-  document.getElementById("Дизайн").className = "button blue";
+  document.getElementById("Дизайн").className =
+    "filter__button filter__button--blue";
 });
 document.getElementById("Маркетинг").addEventListener("click", () => {
   makeGreyStyle();
   applyFiler("Маркетинг");
-  document.getElementById("Маркетинг").className = "button blue";
+  document.getElementById("Маркетинг").className =
+    "filter__button filter__button--blue";
 });

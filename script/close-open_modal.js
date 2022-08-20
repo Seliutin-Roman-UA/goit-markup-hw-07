@@ -1,7 +1,10 @@
 document
   .querySelector(".button.hero__button--position")
   .addEventListener("click", () => {
-    console.log("Hello = ", document.querySelector(".hero-button-open"));
+    console.log(
+      "Hello = ",
+      document.querySelector(".button.hero__button--position")
+    );
     document.getElementById("modal").className = "backdrop";
   });
 document.querySelector(".button-close").addEventListener("click", () => {

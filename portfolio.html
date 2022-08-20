@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
 
   <body>
@@ -78,6 +78,7 @@
 
     <main>
       <section class="portfolio">
+
         <!-- кнопки ФИЛЬТРА -->
         <div class="conteiner">
           <h1 class="portfolio_header">Портфолио работ компании WebStudio</h1>
@@ -383,7 +384,7 @@
         <form  class="signup_form" name="signup_form" autocomplete="on">
           <h2 class="signup_form__header">Подпишитесь на рассылку</h2>
           <input  class="signup_form__input" type="email" name="email" placeholder="E-mail" />
-          <button class="button button--new-proprty" type="submit">
+          <button class="button button--new-proprty" type="submit" id="btn_signup_form">
             Подписаться
             <svg width="24px" height="24px">
               <use href="./images/symbol-defs.svg#icon-telegram"></use>
@@ -392,9 +393,8 @@
         </form>
       </div>
     </footer>
-    <script src="./script/script.js"></script>
-     <script src="./script/script3.js"></script>
-    <script src="./script/for-form.js"></script>
-    <!-- <script src="./script/script2.js"></script> -->
+    
+    <script src="./script/filter_portfolio.js"></script>
+   
   </body>
 </html>
